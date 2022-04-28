@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokeSearchComponent implements OnInit {
 
+  lupa : string = "assets/Vector.png"
   constructor() { }
+
+
 
   ngOnInit(): void {
   }
+
+
 
 }
