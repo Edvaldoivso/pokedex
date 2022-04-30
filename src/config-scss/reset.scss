@@ -28,12 +28,6 @@ body {
 }
 
 
-input{
-    outline: none;
-    font-weight: 100;
-}
-
-
 ol,
 ul {
     list-style: none;
@@ -55,4 +49,11 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+
+
+input{
+    outline: none;
+    font-weight: 100;
 }
