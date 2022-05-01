@@ -6,6 +6,7 @@ $padding: rem-calc(20);
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .pokemon {
         position: relative;
@@ -56,10 +57,10 @@ $padding: rem-calc(20);
             right: rem-calc(20);
             bottom: rem-calc(20);
             padding: $padding;
-            background: url('../../../assets/PokemonFundo.png') no-repeat;
-
+            //background: url('../../../assets/Fundo.jpg') no-repeat;
+            
             img {
-                width: rem-calc(80);
+                width: rem-calc(70);
             }
 
 
