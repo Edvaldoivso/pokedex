@@ -1,5 +1,9 @@
 <form>
-
-<input type="text" placeholder="Buscar Pokemon...">
-<img src="{{ lupa }}" alt="Buscar Pokemon">
+  <input
+    type="text"
+    #inpult
+    (keyup)="search(inpult.value)"
+    placeholder="Buscar Pokemon..."
+  />
+  <img src="{{ lupa }}" alt="Buscar Pokemon" />
 </form>
